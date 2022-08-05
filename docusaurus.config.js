@@ -8,16 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '拥碧',
   tagline: 'Just for today',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://yongbi.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  // favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ysh199882', // Usually your GitHub org/user name.
+  projectName: 'yongbi', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -58,14 +58,6 @@ const config = {
     ({
       navbar: {
         // hideableSidebar: true, 
-        // announcementBar: {
-        //   id: 'support_us',
-        //   content:
-        //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-        //   backgroundColor: '#fafbfc',
-        //   textColor: '#091E42',
-        //   isCloseable: false,
-        // },
         // announcementBar: {
         //   id: 'support_us',
         //   content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
