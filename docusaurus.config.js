@@ -24,7 +24,12 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans','en'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
   },
 
   presets: [
@@ -32,7 +37,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
+        docs:{
+
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -40,7 +46,9 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          routeBasePath: "/blog",
           showReadingTime: true,
+          blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -49,6 +57,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+        },
       }),
     ],
   ],
@@ -56,15 +68,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      }, 
       navbar: {
-        // hideableSidebar: true, 
-        // announcementBar: {
-        //   id: 'support_us',
-        //   content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
-        //   backgroundColor: '#fafbfc',
-        //   textColor: '#091E42',
-        //   isCloseable: true,
-        // }, 
         title: 'Gloria-Yongbi',
         // logo: {
         //   alt: 'My Site Logo',
@@ -74,8 +85,13 @@ const config = {
         items: [
           {to: 'docs/tutorial-basics/congratulations', label: '正文', position: 'right'},
           {to: 'blog', label: 'Blog', position: 'right'},
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
         ],
       },
+     
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
