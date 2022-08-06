@@ -25,9 +25,9 @@
   background: black;
 }
 
-/* :root .menu__link--active:not(.menu__link--sublist){
-  background-color: black;
-} */
+:root .tagRegular_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module{
+  color: black;
+}
 
 :root .menu__link--active{
   color: black;

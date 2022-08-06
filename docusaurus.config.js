@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Yongbi',
-  tagline: 'Just for today',
+  tagline: '做点酷的事',
   url: 'https://yongbi.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -71,7 +71,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
-        backgroundColor: '#fafbfc',
+        backgroundColor: 'black',
         textColor: '#091E42',
         isCloseable: true,
       }, 
