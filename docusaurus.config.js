@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '拥碧',
+  title: 'Yongbi',
   tagline: 'Just for today',
   url: 'https://yongbi.co',
   baseUrl: '/',

@@ -5,8 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
-/* :root {
-  --ifm-color-primary: #2e8555;
+:root {
+  --ifm-color-primary: #fff;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -15,25 +15,22 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-} */
+}
 
-:root {
-  --ifm-color-primary: #827397;
-  --ifm-color-primary-dark: #4D4C7D;
-  --ifm-color-primary-darker: #4D4C7D;
-  --ifm-color-primary-darkest: #363062;
-  --ifm-color-primary-light: #E9D5DA;
-  --ifm-color-primary-lighter: #E9D5DA;
-  --ifm-color-primary-lightest: #ffe5f1;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'nt-dapper', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
-  --ifm-font-family-monospace: 'jetbrains-mono', monospace;
-  --ifm-heading-font-weight: 900;
-  --ifm-navbar-item-padding-horizontal: 20px;
-  --ifm-navbar-height: 80px;
-  --ifm-link-decoration: none;
-  --ifm-link-hover-decoration: none;
+:root .pagination-nav__label{
+  color: black;
+}
+
+:root .breadcrumbs__item--active .breadcrumbs__link{
+  background: black;
+}
+
+:root .menu__link--active:not(.menu__link--sublist){
+  background-color: black;
+}
+
+:root .menu__link--active{
+  color: black;
 }
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
