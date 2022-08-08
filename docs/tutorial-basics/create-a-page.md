@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 创建一个博客
+# 先创建一个博客
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 
