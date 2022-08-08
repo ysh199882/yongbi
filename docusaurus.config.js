@@ -42,8 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           routeBasePath: "/blog",
@@ -51,8 +51,9 @@ const config = {
           blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //  你看过魔警吗，一遍遍在自己脑海里重演当时的每一幕，一帧帧的回放，我放不过自己，我一直在纠结当初如果不截图那就没有后来的事。如果七号那天我不主动提分手，我让着你，现在完全就不会变成这样。生活怎么会变得如此糟糕透顶。人都是时势的产物，可能换个时间段换个地点就不会做这样的事。我没有逃避我的错误，我只是说你也别逃避了。不要再让一切失控，给这一年画个句号。
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

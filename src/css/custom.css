@@ -19,8 +19,23 @@
   --ifm-menu-color-background-active:black;
   --ifm-menu-color:black
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-menu-color-active:black;
+  --ifm-menu-color-background-active:black;
 }
 
+:root .navbar-sidebar__back{
+  background: white;
+}
+.menu__link--active:not(.menu__link--sublist){
+  color: white;
+}
+.tocCollapsibleButton_node_modules-\@docusaurus-theme-classic-lib-theme-TOCCollapsible-CollapseButton-styles-module{
+  color: white;
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code{
+  color: black;
+}
 
 :root .breadcrumbs__item--active .breadcrumbs__link{
   background: black;
