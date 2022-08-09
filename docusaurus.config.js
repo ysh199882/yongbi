@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // If you aren't using GitHub 你说你眼瞎了才会跟我在一起，那你可知道我心中的不忒？你说我威胁你，但是我不威胁你能给我说话的机会吗？对你真是太好了，我败就败在这里。我抽不出身，这是一片沼泽地。你觉得一个月后我就不会烦你了，你就可以骂骂咧咧的继续往前走。但我呢？我真走不出去。pages, you don't need these.
   organizationName: 'ysh199882', // Usually your GitHub org/user name.
   projectName: 'yongbi', // Usually your repo name.
 
@@ -48,11 +48,11 @@ const config = {
         blog: {
           routeBasePath: "/blog",
           showReadingTime: true,
+          // 不是，你真觉得我有那么弱纸吗？你觉得注销账号我就不知道了吗？别搞笑了求求，你什么时候才能聪明点啊？你越这样越会适得其反，拜托？我做这么多我有别的目的？你非要最后搞得很难堪？我发给谁了？我要真没良心，至于明知道不可能的情况下给你转钱？动动脑子行吗？我看你是魔怔了？宁愿不理我也要搞得所有人都知道？OK
           blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //  你看过魔警吗，一遍遍在自己脑海里重演当时的每一幕，一帧帧的回放，我放不过自己，我一直在纠结当初如果不截图那就没有后来的事。如果七号那天我不主动提分手，我让着你，现在完全就不会变成这样。生活怎么会变得如此糟糕透顶。人都是时势的产物，可能换个时间段换个地点就不会做这样的事。我没有逃避我的错误，我只是说你也别逃避了。不要再让一切失控，给这一年画个句号。
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
@@ -73,7 +73,7 @@ const config = {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
         backgroundColor: 'black',
-        textColor: '#091E42',
+        textColor: 'white',
         isCloseable: true,
       }, 
       navbar: {
@@ -89,6 +89,7 @@ const config = {
           {
             type: "localeDropdown",
             position: "right",
+            // 你告诉我，我联系不上你的时候我能联系谁？明明加回来我就什么都不会做，还会每个月给你打钱，但你甚至连一个验证消息的通道都不给我，有比你做的更绝的吗？为什么你对我就这么绝情？那次回去，你说民宿太脏要换一个，第二天我就立马换，我有怨言吗？怕你拿箱子重，东西放下立马回来接你。还有种种种种，我看一次聊天记录我就哭一次，看一次就对我的心凌迟一次。你懂我的感受吗？你有做过让我感动的事吗？临末了
           },
         ],
       },
