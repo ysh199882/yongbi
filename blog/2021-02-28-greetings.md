@@ -1,11 +1,11 @@
 ---
 slug: greetings
-title: Greetings!
+title: greetings
 authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
+  - name: yangshihao
+    title: hello
+    url: https://www.yongbi.co/
+    image_url: https://s2.loli.net/2022/08/09/biHUPu8YShImcGR.jpg
   - name: Sébastien Lorber
     title: Docusaurus maintainer
     url: https://sebastienlorber.com
