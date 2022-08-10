@@ -9,5 +9,7 @@ github的移动应用设计师 [Brian Lovin](https://brianlovin.com)
 
 前端视觉大佬 [Joel](https://joelcalifa.com)
 
-[geekplux](<https://geekplux.com/posts>) 内容颇丰，有次看这位博主的博客看到了两点
+[geekplux](https://geekplux.com/posts) 内容颇丰，有次看这位博主的博客看到了两点
+
+[王丹2021年信](https://danwang.co/2021-letter/) 花了一周时间去看这封信，以华人的眼光看中美施政方针，是一个绝对有深度的作者
 <!-- 输出倒逼自己输入 -->
