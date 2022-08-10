@@ -24,7 +24,7 @@ const sidebars = {
       },
       items: [
         'javascript/数组',
-      ]
+      ],
     },
     {
       type: 'category',
@@ -56,8 +56,19 @@ const sidebars = {
           id:'algorithm/数组二分法查找'
         }
       ]
-    }
-
+    },
+    {
+      type:'category',
+      label:'业务难点',
+      items:[
+        {
+          type:'doc',
+          id:'workHard/readme'
+        }
+      ]
+    },
+    'netLify',
+    '性能优化',
   ]
 };
 
