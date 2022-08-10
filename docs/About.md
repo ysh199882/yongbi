@@ -11,5 +11,5 @@ github的移动应用设计师 [Brian Lovin](https://brianlovin.com)
 
 [geekplux](https://geekplux.com/posts) 内容颇丰，有次看这位博主的博客看到了两点
 
-[王丹2021年信](https://danwang.co/2021-letter/) 花了一周时间去看这封信，内容主要是关于中国过去一年的发展以及和美国的对比。作者目前旅居香港，供职于Gavekal Dragonomics，是一个绝对有深度的作者
+[王丹2021年信](https://danwang.co/2021-letter/) 花了一周时间去看这封信，内容主要是关于中国过去一年的发展以及和美国的对比。作者目前旅居香港，供职于Gavekal Dragonomics，是一个绝对有深度的博主
 <!-- 输出倒逼自己输入 -->
