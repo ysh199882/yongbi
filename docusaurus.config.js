@@ -83,7 +83,7 @@ const config = {
         // },
         hideOnScroll: true,
         items: [
-          {to: 'docs/intro', label: '正文', position: 'right'},
+          {to: 'docs/About', label: '正文', position: 'right'},
           {to: 'blog', label: 'Blog', position: 'right'},
           {
             type: "localeDropdown",
