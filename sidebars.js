@@ -53,8 +53,17 @@ const sidebars = {
       items:[
         {
           type:'doc',
+          id:'algorithm/写在前面'
+        },
+        {
+          type:'doc',
           id:'algorithm/数组二分法查找'
+        },
+        {
+          type:'doc',
+          id:'algorithm/合并数组区间'
         }
+        
       ]
     },
     {
