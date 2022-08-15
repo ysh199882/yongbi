@@ -70,12 +70,12 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         textColor: 'white',
         isCloseable: true,
       }, 
       navbar: {
-        title: 'Gloria-Yongbi',
+        title: 'Coraline-Yongbi',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/头像.jpg',

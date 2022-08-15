@@ -39,6 +39,17 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'React',
+      items: [
+        {
+          type: 'doc',
+          id: 'react/next',
+          label: 'next'
+        }
+      ]
+    },
+    {
+      type: 'category',
       label: 'Life',
       items: [
         {
@@ -78,6 +89,7 @@ const sidebars = {
     },
     'netLify',
     '性能优化',
+    '奇思妙想'
   ]
 };
 
