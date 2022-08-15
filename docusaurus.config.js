@@ -75,7 +75,7 @@ const config = {
         isCloseable: true,
       }, 
       navbar: {
-        title: 'Coraline-Yongbi',
+        title: 'Coraline_',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/头像.jpg',

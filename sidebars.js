@@ -43,8 +43,8 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'react/next',
-          label: 'next'
+          id: 'react/nextjs',
+          label: 'next.js'
         }
       ]
     },
