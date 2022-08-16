@@ -71,7 +71,7 @@ const config = {
         id: 'support_us',
         content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ysh199882">GitHub</a>',
         backgroundColor: 'white',
-        textColor: 'white',
+        textColor: 'black',
         isCloseable: true,
       }, 
       navbar: {
