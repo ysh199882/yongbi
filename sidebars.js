@@ -79,7 +79,17 @@ const sidebars = {
     },
     {
       type:'category',
-      label:'业务难点',
+      label:'canvas',
+      items:[
+        {
+          type:'doc',
+          id:'canvas/readme'
+        }
+      ]
+    },
+    {
+      type:'category',
+      label:'work',
       items:[
         {
           type:'doc',
@@ -87,9 +97,10 @@ const sidebars = {
         }
       ]
     },
+    'npm',
     'netLify',
     '性能优化',
-    '奇思妙想'
+    '奇思妙想',
   ]
 };
 
