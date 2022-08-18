@@ -20,8 +20,8 @@ function HomepageHeader() {
 
     const globe = createGlobe(canvasRef.current, {
       devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
+      width: 320 * 2,
+      height: 400 * 2,
       phi: 0,
       theta: 0,
       dark: 1,
@@ -54,10 +54,13 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
       {/* <img src={logo} style={{width: 280, borderRadius: '50%'}} />  */}
-      <canvas
-        ref={canvasRef}
-        style={{ width: 600, height: 600, aspectRatio: 1 }}
-      />
+      <div style={{width:280}}>
+        <canvas
+          ref={canvasRef}
+          style={{ width: 400, height: 400, aspectRatio: 1 }}
+        />
+      </div>
+      
         <h1 className={styles.heroBannerTitle}>{siteConfig.title}</h1>
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
         <div className={styles.buttons}>
