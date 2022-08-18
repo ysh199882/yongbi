@@ -73,6 +73,10 @@ const sidebars = {
         {
           type:'doc',
           id:'algorithm/合并数组区间'
+        },
+        {
+          type:'doc',
+          id:'algorithm/排序算法'
         }
         
       ]
