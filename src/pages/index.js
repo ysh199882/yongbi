@@ -54,12 +54,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
       {/* <img src={logo} style={{width: 280, borderRadius: '50%'}} />  */}
-      <div style={{width:280}}>
+      {/* <div style={{width:280}}> */}
         <canvas
           ref={canvasRef}
-          style={{ width: 400, height: 400, aspectRatio: 1 }}
+          style={{ width: 320, height: 400, aspectRatio: 1 }}
         />
-      </div>
+      {/* </div> */}
       
         <h1 className={styles.heroBannerTitle}>{siteConfig.title}</h1>
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
