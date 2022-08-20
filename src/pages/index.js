@@ -3,14 +3,10 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import logo from '@site/static/img/头像.jpg'
 import beauty from '@site/static/img/beauty.jpeg'
-
 import styles from './index.module.css';
-
 import createGlobe from "cobe";
-
 
 function HomepageHeader() {
   const canvasRef = useRef();
@@ -50,19 +46,16 @@ function HomepageHeader() {
   }, []);
   
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
       {/* <img src={logo} style={{width: 280, borderRadius: '50%'}} />  */}
-      {/* <div style={{width:280}}> */}
         <canvas
           ref={canvasRef}
           style={{ width: 320, height: 400, aspectRatio: 1 }}
         />
-      {/* </div> */}
-      
         <h1 className={styles.heroBannerTitle}>{siteConfig.title}</h1>
-        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -78,20 +71,12 @@ function HomepageHeader() {
 export default function Home() {
 
   const {siteConfig} = useDocusaurusContext();
+  
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-       {/* <main style={{height:'40%'}}> */}
-       {/* <HomepageFeatures></HomepageFeatures> */}
-       {/* <canvas
-        ref={canvasRef}
-        style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
-      /> */}
-      {/* </main>  */}
-    
-
     </Layout>
   );
 }

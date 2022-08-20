@@ -17,7 +17,6 @@ const config = {
   // If you aren't using GitHub。pages, you don't need these.
   organizationName: 'ysh199882', // Usually your GitHub org/user name.
   projectName: 'yongbi', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -45,13 +44,9 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          routeBasePath: "/blog",
+          // routeBasePath: "/blog",
           showReadingTime: true,
           blogSidebarCount: "ALL",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,7 +75,7 @@ const config = {
         //   alt: 'My Site Logo',
         //   src: 'img/头像.jpg',
         // },
-        hideOnScroll: true,
+        hideOnScroll: false,
         items: [
           {to: 'docs/About', label: '正文', position: 'right'},
           {to: 'blog', label: 'Blog', position: 'right'},
@@ -88,14 +83,19 @@ const config = {
             type: "localeDropdown",
             position: "right",
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
-     
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         defaultLanguage: 'javascript',
       },
+      
       // algolia: {
       //   // The application ID provided by Algolia
       //   appId: 'BWG0DEIDEP',

@@ -5,11 +5,7 @@ authors:
   - name: yangshihao
     title: hello
     url: https://www.yongbi.co/
-    image_url: https://s2.loli.net/2022/08/09/biHUPu8YShImcGR.jpg
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
+    image_url: https://sm.ms/image/1oZBrp3AnP6sTk2
 tags: [greetings]
 ---
 
