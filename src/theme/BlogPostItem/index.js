@@ -19,7 +19,7 @@ export default function BlogPostItemWrapper(props) {
       <div style={{marginBottom:'10px',textIndent:'3px'}}>评论:</div>
       <ReactCusdis
         attrs={{
-          host: 'https://yongbi.co',
+          host: 'https://cusdis.com',
           appId: 'e60db2f2-22fc-4f82-bbd9-d833bec20f69',
           pageId: {pageUrl},
           // pageTitle: {pageUrl},
