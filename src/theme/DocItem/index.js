@@ -15,6 +15,7 @@ export default function DocItemWrapper(props) {
           pageTitle: 'PAGE_TITLE',
           pageUrl: 'PAGE_URL'
         }}
+        lang = 'zh-cn'
       />
     </>
   );

@@ -67,13 +67,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* @media screen and (min-width: 575px) */
-/* .navbar.navbar--fixed-top {
+@media screen and (min-width: 996px){
+  .navbar.navbar--fixed-top {
     position: fixed;
     top:0;
     width: 100%;
     z-index: 0;
-} */
+}
+}
+
 
 .margin-vert--lg{
   margin-top: 4rem !important;
