@@ -78,3 +78,7 @@
 .margin-vert--lg{
   margin-top: 4rem !important;
 }
+
+.padding-bottom--lg .row{
+  padding-bottom: 70px;
+}
