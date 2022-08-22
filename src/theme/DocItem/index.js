@@ -13,7 +13,6 @@ export default function DocItemWrapper(props) {
   return (
     <>
       <DocItem {...props} />
-      <div style={{marginBottom:'10px',textIndent:'3px'}}>评论:</div>
       <ReactCusdis
         attrs={{
           host: 'https://cusdis.com',
