@@ -4,9 +4,13 @@ import { ReactCusdis } from 'react-cusdis';
 
 export default function BlogPostItemWrapper(props) {
   const [pageUrl,setPageUrl] = useState();
-  
+
   useEffect(() => {
-    setPageUrl(window.location.href)
+    let url = window.location.href;
+    let index = url.lastIndexOf("\/");
+    let str = url.substring(index + 1,url.length);
+
+    setPageUrl(str)
   }, []);
 
   return (
@@ -15,11 +19,11 @@ export default function BlogPostItemWrapper(props) {
       <div style={{marginBottom:'10px',textIndent:'3px'}}>评论:</div>
       <ReactCusdis
         attrs={{
-          host: 'https://cusdis.com',
+          host: 'https://yongbi.co',
           appId: 'e60db2f2-22fc-4f82-bbd9-d833bec20f69',
           pageId: {pageUrl},
-          pageTitle: {pageUrl},
-          pageUrl: {pageUrl},
+          // pageTitle: {pageUrl},
+          // pageUrl: {pageUrl},
         }}
         lang = 'zh-cn'
       />
