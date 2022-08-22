@@ -8,9 +8,6 @@ export default function DocItemWrapper(props) {
     let url = window.location.href;
     let index = url.lastIndexOf("\/");
     let str = url.substring(index + 1,url.length);
-    console.log('====================================');
-    console.log(str,url);
-    console.log('====================================');
     setPageUrl(str)
   }, []);
   return (
