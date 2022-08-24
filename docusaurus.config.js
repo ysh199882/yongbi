@@ -71,14 +71,14 @@ const config = {
         isCloseable: true,
       }, 
       navbar: {
-        title: 'Coraline_',
+        title: 'Now!',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/头像.jpg',
         // },
         hideOnScroll: false,
         items: [
-          {to: 'docs/About', label: '正文', position: 'right'},
+          {to: 'docs/About', label: 'Docs', position: 'right'},
           {to: 'blog', label: 'Blog', position: 'right'},
           {
             type: "localeDropdown",
