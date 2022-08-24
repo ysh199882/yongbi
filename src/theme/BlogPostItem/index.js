@@ -9,7 +9,6 @@ export default function BlogPostItemWrapper(props) {
     let url = window.location.href;
     let index = url.lastIndexOf("\/");
     let str = url.substring(index + 1,url.length);
-
     setPageUrl(str)
   }, []);
 
@@ -20,9 +19,8 @@ export default function BlogPostItemWrapper(props) {
         attrs={{
           host: 'https://cusdis.com',
           appId: 'e60db2f2-22fc-4f82-bbd9-d833bec20f69',
-          pageId: {pageUrl},
-          // pageTitle: {pageUrl},
-          // pageUrl: {pageUrl},
+          pageId: `{${pageUrl}}`,
+          pageTitle:`{${pageUrl}}`,
         }}
         lang = 'zh-cn'
       />

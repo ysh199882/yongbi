@@ -44,8 +44,9 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          // routeBasePath: "/blog",
+          routeBasePath: "/blog",
           showReadingTime: true,
+          blogSidebarTitle:'Recent',
           blogSidebarCount: "ALL",
         },
         theme: {
@@ -89,7 +90,6 @@ const config = {
           },
         ],
       },
-      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
