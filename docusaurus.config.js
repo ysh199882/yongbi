@@ -56,6 +56,10 @@ const config = {
           changefreq: "weekly",
           priority: 0.5,
         },
+        gtag: {
+          trackingID: 'G-DVB1KCKPQ3',
+          anonymizeIP: false,
+        },
       }),
     ],
   ],
